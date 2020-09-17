@@ -7,6 +7,9 @@
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/UMIDIGI/A5_Pro/A5_Pro-vendor.mk)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0 \
