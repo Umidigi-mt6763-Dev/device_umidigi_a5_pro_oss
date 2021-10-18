@@ -8,6 +8,7 @@ ro.mediatek.platform=MT6763
 ro.telephony.sim.count=2
 persist.radio.default.sim=0
 persist.radio.erlvt.on=1
+persist.sys.binary_xml=false
 vendor.camera.mdp.dre.enable=0
 vendor.camera.mdp.cz.enable=1
 bgw.current3gband=0
