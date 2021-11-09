@@ -678,8 +678,6 @@ vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 
 # Misc
--vendor/app/EmCamera/EmCamera.apk	
-vendor/app/EmCamera/lib/arm64/libem_camera_jni.so
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
 vendor/bin/bip
