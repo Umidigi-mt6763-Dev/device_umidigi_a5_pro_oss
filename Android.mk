@@ -21,8 +21,8 @@ ALL_DEFAULT_INSTALLED_MODULES += $(GATEKEEPER_SYMLINK)
 VULKAN_SYMLINK += $(TARGET_OUT_VENDOR)/lib/hw/vulkan.mt6763.so
 VULKAN_SYMLINK += $(TARGET_OUT_VENDOR)/lib64/hw/vulkan.mt6763.so
 $(VULKAN_SYMLINK): $(LOCAL_INSTALLED_MODULE)
-  @mkdir -p $(dir $@)
-  $(hide) ln -sf ../egl/libGLES_mali.so $@
+	@mkdir -p $(dir $@)
+	$(hide) ln -sf ../egl/libGLES_mali.so $@
 
 ALL_DEFAULT_INSTALLED_MODULES += $(VULKAN_SYMLINK)
 
