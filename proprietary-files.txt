@@ -414,7 +414,9 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # Keystore
+vendor/lib/hw/keystore.itrusty.so
 vendor/lib/hw/keystore.mt6763.so
+vendor/lib64/hw/keystore.itrusty.so
 vendor/lib64/hw/keystore.mt6763.so
 
 # Listen
