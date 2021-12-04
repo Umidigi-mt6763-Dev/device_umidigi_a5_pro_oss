@@ -274,15 +274,12 @@ vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
-vendor/lib/hw/dfps.mt6763.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.mt6763.so
 vendor/lib/hw/memtrack.mt6763.so
 vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.pq@2.2-impl.so
 vendor/lib/libdpframework.so
-vendor/lib/libfpspolicy.so
-vendor/lib/libged.so
 vendor/lib/libgpu_aux.so
 vendor/lib/libgralloc_extra.so
 vendor/lib/libion_mtk.so
@@ -290,7 +287,6 @@ vendor/lib/libion_ulit.so
 vendor/lib/libminiui.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libpq_cust_base.so
-vendor/lib/libpq_prot.so
 vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
