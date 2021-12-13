@@ -288,6 +288,9 @@
         <item>com.google.android.apps.messaging</item>
     </string-array>
 
+    <!-- Exempt ImsService from privacy (location) indicators -->
+    <string name="config_systemAudioIntelligence" translatable="false">com.mediatek.ims</string>
+
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
          -->
