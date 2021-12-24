@@ -5,7 +5,6 @@ ro.carrier=unknown
 ro.dalvik.vm.native.bridge=0
 ro.mediatek.chip_ver=S01
 ro.mediatek.platform=MT6763
-ro.sf.lcd_density=480
 ro.telephony.sim.count=2
 persist.radio.default.sim=0
 persist.radio.erlvt.on=1
