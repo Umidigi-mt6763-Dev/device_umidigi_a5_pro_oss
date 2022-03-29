@@ -48,6 +48,8 @@ vendor/lib/hw/audio.usb.mt6763.so
 vendor/lib64/hw/audio.primary.mt6763.so
 vendor/lib64/hw/audio.r_submix.mt6763.so
 vendor/lib64/hw/audio.usb.mt6763.so
+vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
+vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
