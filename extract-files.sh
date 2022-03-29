@@ -72,6 +72,7 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libc++.so" "libc++-v28.so" "${2}"
             ;;
         vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so)
+            "${PATCHELF}" --replace-needed "android.hardware.audio.common-util.so" "android.hardware.audio.common-util-v28.so" "${2}"
             "${PATCHELF}" --replace-needed "android.hardware.audio.common@4.0-util.so" "android.hardware.audio.common@4.0-util-v28.so" "${2}"
             ;;
         vendor/lib/hw/audio.primary.mt6763.so)
