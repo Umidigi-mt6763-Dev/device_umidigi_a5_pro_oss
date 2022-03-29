@@ -506,6 +506,7 @@ vendor/lib/libneuropilot_hal_utils.so
 vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib/libtextclassifier_hash.so
 vendor/lib64/libtextclassifier_hash.so
+vendor/lib64/libvpu.so
 
 # NVRAM - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2106051247:user/release-keys
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service|8f8b1c931ce4859f58867bf4bf320fcae47bb22b
