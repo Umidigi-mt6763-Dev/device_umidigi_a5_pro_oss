@@ -115,9 +115,12 @@ vendor/etc/audio_param/VOW_AudioParam.xml
 vendor/etc/audio_param/VOW_ParamUnitDesc.xml
 vendor/etc/default_volume_tables.xml
 vendor/etc/aurisys_param/Speech_AudioParam.xml
+
+# Audio (Bin) - from UMIDIGI/A7_Pro/A7_Pro:10/QP1A.190711.020/2111121735:user/release-keys
+vendor/bin/audiocmdservice_atci
 vendor/etc/init/audiocmdservice_atci.rc
 
-# Audio
+# Audio - from UMIDIGI/A7_Pro/A7_Pro:10/QP1A.190711.020/2111121735:user/release-keys
 vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocompensationfilter_vendor.so
 vendor/lib/libaudiocomponentenginec.so
@@ -127,7 +130,6 @@ vendor/lib/libaudiodcrflt_vendor.so
 vendor/lib/libaudiofmtconv.so
 vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
-vendor/lib/libaudiosetting.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocompensationfilterc.so
@@ -139,17 +141,24 @@ vendor/lib64/libaudiodcrflt_vendor.so
 vendor/lib64/libaudiofmtconv.so
 vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
-vendor/lib64/libaudiosetting.so
 vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libaudio_param_parser-vnd.so
 
-# Audio Hardware
+# Audio Hardware - from UMIDIGI/A7_Pro/A7_Pro:10/QP1A.190711.020/2111121735:user/release-keys
 vendor/lib/hw/audio.primary.mt6763.so|f06d08088a8ce46beead4bd4f9af7d689e53af5b
 vendor/lib/hw/audio.r_submix.mt6763.so
 vendor/lib/hw/audio.usb.mt6763.so
 vendor/lib64/hw/audio.primary.mt6763.so
 vendor/lib64/hw/audio.r_submix.mt6763.so
 vendor/lib64/hw/audio.usb.mt6763.so
+
+# Audio-Hardware (HIDL) - UMIDIGI/A7_Pro/A7_Pro:10/QP1A.190711.020/2111121735:user/release-keys
+vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
+vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
+vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so
+vendor/lib/vendor.mediatek.hardware.audio@5.1.so
+vendor/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so
+vendor/lib64/vendor.mediatek.hardware.audio@5.1.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
@@ -530,15 +539,12 @@ vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
 # Mediatek
-vendor/bin/hw/android.hardware.audio@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.log@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
-vendor/etc/init/android.hardware.audio@4.0-service-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.log@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
-vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so|8ae62db76c61ad8a4abd7f9d5bf8c16701fd9b60
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
@@ -553,7 +559,6 @@ vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libmtksysutils.so
 vendor/lib/libmtk_drvb.so
 vendor/lib/vendor.mediatek.hardware.apmonitor@1.0.so
-vendor/lib/vendor.mediatek.hardware.audio@4.1.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
@@ -561,7 +566,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.2.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
@@ -584,7 +588,6 @@ vendor/lib64/libmtktinyxml.so
 vendor/lib64/libmtkutils.so
 vendor/lib64/libmtk_drvb.so
 vendor/lib64/vendor.mediatek.hardware.apmonitor@1.0.so
-vendor/lib64/vendor.mediatek.hardware.audio@4.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so
@@ -765,7 +768,6 @@ vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 
 # Misc
-vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
 vendor/bin/bip
 vendor/bin/ccci_fsd
@@ -799,8 +801,6 @@ vendor/bin/wfca
 vendor/data/misc/ProjectConfig.mk
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/ams_aal_config.xml
-vendor/etc/aurisys_config.xml
-vendor/etc/aurisys_param/Speech_AudioParam.xml
 vendor/etc/cdma_ecc_list.xml
 vendor/etc/cdma_ecc_list_OP01.xml
 vendor/etc/cdma_ecc_list_OP09.xml
@@ -815,7 +815,6 @@ vendor/etc/ecc_list_OP09.xml
 vendor/etc/ecc_list_OP12.xml
 vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
-vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
 vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/gsm0710muxd.rc

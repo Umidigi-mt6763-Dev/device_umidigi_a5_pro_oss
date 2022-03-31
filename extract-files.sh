@@ -71,12 +71,8 @@ function blob_fixup() {
             "${PATCHELF}" --add-needed "libcompiler_rt.so" "${2}"
             "${PATCHELF}" --replace-needed "libc++.so" "libc++-v28.so" "${2}"
             ;;
-        vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so)
-            "${PATCHELF}" --replace-needed "android.hardware.audio.common@4.0-util.so" "android.hardware.audio.common@4.0-util-v28.so" "${2}"
-            ;;
         vendor/lib/hw/audio.primary.mt6763.so)
-            "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper-v28.so" "${2}"
-            "${PATCHELF}" --replace-needed "libxml2.so" "libxml2-v28.so" "${2}"
+            "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper-v29.so" "${2}"
             ;;
         vendor/lib/libMtkOmxVdecEx.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v28.so" "${2}"
