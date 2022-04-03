@@ -706,12 +706,10 @@ vendor/lib64/libsysenv.so|8faeff48161ab28d948256d543abdb2a8f08fa99
 vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
 vendor/lib/librgbwlightsensor.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so
 vendor/lib64/librgbwlightsensor.so
 vendor/lib64/hw/sensors.mt6763.so
 vendor/lib64/libksensor.so
-vendor/lib64/libsensorndkbridge.so
 
 # Thermal
 vendor/bin/thermal
