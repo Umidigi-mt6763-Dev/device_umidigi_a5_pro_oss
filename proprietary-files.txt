@@ -145,6 +145,8 @@ vendor/lib/hw/audio.usb.mt6763.so
 vendor/lib64/hw/audio.primary.mt6763.so
 vendor/lib64/hw/audio.r_submix.mt6763.so
 vendor/lib64/hw/audio.usb.mt6763.so
+vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
+vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
 system/lib/android.hardware.audio.common-util.so:vendor/lib/android.hardware.audio.common-util.so
 system/lib64/android.hardware.audio.common-util.so:vendor/lib64/android.hardware.audio.common-util.so
 
