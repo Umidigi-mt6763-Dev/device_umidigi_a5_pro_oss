@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2022 The CipherOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,14 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit from A5_Pro device
 $(call inherit-product, device/UMIDIGI/A5_Pro/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common CipherOS stuff.
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# CipherOS
+CIPHER_MAINTAINER := Hadenix
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_A5_Pro
+PRODUCT_NAME := cipher_A5_Pro
 PRODUCT_DEVICE := A5_Pro
 PRODUCT_BRAND := UMIDIGI
 PRODUCT_MODEL := A5 Pro
