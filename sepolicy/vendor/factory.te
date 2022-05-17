@@ -1,0 +1,2 @@
+#add CAQGHLSS-1 by jixiaopan 20171121
+allow factory proc:file { getattr };
