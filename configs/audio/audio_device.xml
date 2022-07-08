@@ -150,7 +150,7 @@
         <kctl name="Audio_ADC_1_Switch" value="On" />
         <kctl name="Audio_ADC_2_Switch" value="On" />
         <kctl name="Audio_Preamp1_Switch" value="IN_ADC3" />
-        <kctl name="Audio_Preamp2_Switch" value="IN_ADC1" />
+        <kctl name="Audio_Preamp2_Switch" value="IN_ADC3" />
     </path>
     <path name="builtin_Mic_BackMic" value="turnoff">
         <kctl name="Audio_Preamp1_Switch" value="OPEN" />
@@ -163,7 +163,7 @@
         <kctl name="Audio_ADC_1_Switch" value="On" />
         <kctl name="Audio_ADC_2_Switch" value="On" />
         <kctl name="Audio_Preamp1_Switch" value="IN_ADC1" />
-        <kctl name="Audio_Preamp2_Switch" value="IN_ADC3" />
+        <kctl name="Audio_Preamp2_Switch" value="IN_ADC1" />
     </path>
     <path name="builtin_Mic_BackMic_Inverse" value="turnoff">
         <kctl name="Audio_Preamp1_Switch" value="OPEN" />
@@ -199,6 +199,7 @@
     </path>
     <path name="Mic1TypeDMICMode" value="setting">
         <kctl name="Audio_MIC1_Mode_Select" value="DMIC" />>
+		<kctl name="dmic path" value="On" />
     </path>
     <path name="Mic1TypeDCCECMDIFFMode" value="setting">
         <kctl name="Audio_MIC1_Mode_Select" value="DCCECMDIFFMODE" />>
@@ -215,6 +216,7 @@
     </path>
     <path name="Mic2TypeDMICMode" value="setting">
         <kctl name="Audio_MIC2_Mode_Select" value="DMIC" />>
+		<kctl name="dmic path" value="On" />
     </path>
     <path name="Mic2TypeDCCECMDIFFMode" value="setting">
         <kctl name="Audio_MIC2_Mode_Select" value="DCCECMDIFFMODE" />>
@@ -231,6 +233,7 @@
     </path>
     <path name="Mic3TypeDMICMode" value="setting">
         <kctl name="Audio_MIC3_Mode_Select" value="DMIC" />>
+		<kctl name="dmic path" value="On" />
     </path>
     <path name="Mic3TypeDCCECMDIFFMode" value="setting">
         <kctl name="Audio_MIC3_Mode_Select" value="DCCECMDIFFMODE" />>
@@ -247,6 +250,7 @@
     </path>
     <path name="Mic4TypeDMICMode" value="setting">
         <kctl name="Audio_MIC4_Mode_Select" value="DMIC" />>
+		<kctl name="dmic path" value="On" />
     </path>
     <path name="Mic4TypeDCCECMDIFFMode" value="setting">
         <kctl name="Audio_MIC4_Mode_Select" value="DCCECMDIFFMODE" />>

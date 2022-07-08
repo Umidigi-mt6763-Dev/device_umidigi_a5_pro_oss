@@ -21,6 +21,7 @@
             <Option type="SetParameters" cmd="vendor.af.mixer.end.pcm" check="1" uncheck="0">AudioMixer End Dump</Option>
             <Option type="SetParameters" cmd="vendor.af.record.dump.pcm" check="1" uncheck="0">AudioMixer Record Dump</Option>
             <Option type="SetParameters" cmd="vendor.af.effect.pcm" check="1" uncheck="0">AudioEffect Dump</Option>
+            <Option type="SetParameters" cmd="vendor.aaudio.pcm" check="1" uncheck="0">AAudio Dump</Option>
         </Category>
 	</DumpOptions>
 
@@ -44,6 +45,7 @@
         <Option>ANC_CMD=0</Option>
         <Option>vendor.af.dumplog=1</Option>
         <Option>LowLatencyDebugEnable=1</Option>
+        <Option>DetectPulseEnable=1</Option>
     </SetParameters>
 
     <GetParameters>
