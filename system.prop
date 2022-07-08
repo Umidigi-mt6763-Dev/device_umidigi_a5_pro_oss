@@ -40,3 +40,6 @@ wifi.direct.interface=p2p0
 
 # Zygote
 ro.zygote.preload.enable=0
+
+# Ignore bpf errors
+ro.kernel.ebpf.supported=false
